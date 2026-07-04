@@ -60,8 +60,8 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: |
           ./.sonar/scanner/dotnet-sonarscanner begin \
-            /k:"REPLACE_project_key" \
-            /o:"REPLACE_organization_key" \
+            /k:"hasancagri_GitHubActionsExample" \
+            /o:"hasancagri" \
             /d:sonar.host.url="https://sonarcloud.io" \
             /d:sonar.token="${SONAR_TOKEN}" \
             /d:sonar.cs.opencover.reportsPaths="**/coverage.opencover.xml" \
