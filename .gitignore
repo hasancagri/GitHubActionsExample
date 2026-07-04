@@ -1,0 +1,17 @@
+## Build çıktıları
+bin/
+obj/
+
+## Test / coverage çıktıları
+TestResults/
+*.opencover.xml
+coverage*.xml
+
+## SonarScanner çalışma dizinleri
+.sonar/
+.sonarqube/
+
+## IDE
+.idea/
+.vs/
+*.user

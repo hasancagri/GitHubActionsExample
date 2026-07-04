@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="GitHubActionsExample/GitHubActionsExample.csproj" />
+  <Project Path="GitHubActionsExample.Tests/GitHubActionsExample.Tests.csproj" />
+</Solution>
