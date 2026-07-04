@@ -23,6 +23,6 @@ public class EndpointTests : IClassFixture<WebApplicationFactory<Program>>
         var body = await response.Content.ReadAsStringAsync();
 
         Assert.Equal(HttpStatusCode.OK, response.StatusCode);
-        Assert.Equal("Hello Universe!", body); // KASITLI BOZUK: CI'ın kırmızıya düşüşünü göstermek için
+        Assert.Equal("Hello World!", body);
     }
 }
